@@ -3,9 +3,9 @@ About gitdb
 
 Home: https://github.com/gitpython-developers/gitdb
 
-Package license: BSD License
+Package license: BSD 3-Clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Git Object Database
 
@@ -72,6 +72,11 @@ Current build status
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/gitdb-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/gitdb-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/gitdb-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/gitdb-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/gitdb-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/gitdb-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gitdb/badges/version.svg)](https://anaconda.org/conda-forge/gitdb)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gitdb/badges/downloads.svg)](https://anaconda.org/conda-forge/gitdb)
 
 
 Updating gitdb-feedstock
