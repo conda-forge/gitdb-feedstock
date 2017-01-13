@@ -1,14 +1,16 @@
+{% set version = "0.6.4" %}
+
 package:
   name: gitdb
-  version: "0.6.4"
+  version: {{ version }}
 
 source:
   fn: gitdb-0.6.4.tar.gz
-  url: https://pypi.python.org/packages/source/g/gitdb/gitdb-0.6.4.tar.gz
+  url: https://pypi.io/packages/source/g/gitdb/gitdb-0.6.4.tar.gz
   sha256: a3ebbc27be035a2e874ed904df516e35f4a29a778a764385de09de9e0f139658
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install
 
 requirements:
@@ -27,8 +29,10 @@ test:
 about:
   home: https://github.com/gitpython-developers/gitdb
   license: BSD 3-Clause
+  license_file: LICENSE
   summary: 'Git Object Database'
 
 extra:
   recipe-maintainers:
     - pelson
+    - ocefpaf

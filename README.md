@@ -11,6 +11,18 @@ Summary: Git Object Database
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/gitdb-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/gitdb-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/gitdb-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/gitdb-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/gitdb-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/gitdb-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gitdb/badges/version.svg)](https://anaconda.org/conda-forge/gitdb)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gitdb/badges/downloads.svg)](https://anaconda.org/conda-forge/gitdb)
+
 Installing gitdb
 ================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `gitdb` available on your platform
 ```
 conda search gitdb --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/gitdb-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/gitdb-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/gitdb-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/gitdb-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/gitdb-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/gitdb-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gitdb/badges/version.svg)](https://anaconda.org/conda-forge/gitdb)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gitdb/badges/downloads.svg)](https://anaconda.org/conda-forge/gitdb)
 
 
 Updating gitdb-feedstock
