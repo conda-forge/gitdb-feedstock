@@ -10,24 +10,29 @@ source:
 
 build:
   number: 0
+  noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.4
   run:
-    - python
-    - smmap >=0.8.3
+    - python >=3.4
+    - smmap >=3.0.1
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - gitdb
     - gitdb.db
 
 about:
   home: https://github.com/gitpython-developers/gitdb
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: 'Git Object Database'
 
