@@ -1,4 +1,4 @@
-{% set version = "4.0.1" %}
+{% set version = "4.0.2" %}
 
 package:
   name: gitdb
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/g/gitdb/gitdb-{{ version }}.tar.gz
-  sha256: d82c6b76ce8496c5209adf1c0ab969a6e1a8a31510ceb5f57a206fc7c77c0fea
+  sha256: 598e0096bb3175a0aab3a0b5aedaa18a9a25c6707e0eca0695ba1a0baf1b2150
 
 build:
   number: 0
@@ -34,7 +34,7 @@ about:
   home: https://github.com/gitpython-developers/gitdb
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: 'Git Object Database'
+  summary: Git Object Database
 
 extra:
   recipe-maintainers:
