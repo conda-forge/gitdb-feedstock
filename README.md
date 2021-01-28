@@ -5,11 +5,9 @@ Home: https://github.com/gitpython-developers/gitdb
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gitdb-feedstock/blob/master/LICENSE.txt)
 
 Summary: Git Object Database
-
-
 
 Current build status
 ====================
@@ -118,4 +116,5 @@ Feedstock Maintainers
 
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@pelson](https://github.com/pelson/)
+* [@xhochy](https://github.com/xhochy/)
 
