@@ -1,4 +1,4 @@
-{% set version = "4.0.7" %}
+{% set version = "4.0.8" %}
 
 package:
   name: gitdb
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/g/gitdb/gitdb-{{ version }}.tar.gz
-  sha256: 96bf5c08b157a666fec41129e6d327235284cca4c81e92109260f353ba138005
+  sha256: 858966a9310649cb24a387c101429bb5a1110068a312517722b0281077e78bc6
 
 build:
   number: 0
