@@ -16,9 +16,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.4
+    - python >=3.7
   run:
-    - python >=3.4
+    - python >=3.7
     - smmap >=3.0.1,<6
 
 test:
