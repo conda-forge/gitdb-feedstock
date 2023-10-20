@@ -1,11 +1,11 @@
-About gitdb
-===========
+About gitdb-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gitdb-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gitpython-developers/gitdb
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gitdb-feedstock/blob/main/LICENSE.txt)
 
 Summary: Git Object Database
 
